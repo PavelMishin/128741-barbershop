@@ -1,23 +1,108 @@
 body {
+  width: 1200px;
   font-size: 14px;
   line-height: normal;
-  color: black;
+  margin: 0 auto;
+  color: #000000;
   font-weight: bold;
-  font-family: "PT Sans Narrow"
+  font-family: 'PT Sans', sans-serif;
 }
 
 h1 {
   font-size: 30px;
-  line-height: normal;
-  color: black;
+  margin: 0;
+  line-height: 36px;
+  color: #ffffff;
   font-weight: bold;
-  font-family: "PT Sans Narrow"
+  font-family: 'PT Sans', sans-serif;
 }
 
 h2 {
   font-size: 24px;
-  line-height: normal;
-  color: black;
+  margin: 0;
+  line-height: 29px;
+  color: #ffffff;
   font-weight: bold;
-  font-family: "PT Sans Narrow"
+  font-family: 'PT Sans', sans-serif;
+}
+
+.clearfix {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+  width: 940px;
+  padding: 0px 10px;
+  margin: 0 auto;
+}
+
+.main-navigation {
+  width: 780px;
+  float: left;
+}
+
+.user-block {
+  width: 140px;
+  float: right;
+}
+
+.main-navigation li,
+.breadcrumps li {
+  display: inline-block;;
+}
+
+.filter {
+  float: left;
+  width: 240px;
+}
+
+.catalog {
+  float: left;
+  width: 700px;
+}
+
+article {
+  float: left;
+  width: 220px;
+  margin-bottom: 20px;
+}
+
+article:nth-child(3n+2) {
+  margin: 0 20px;
+}
+
+.pages {
+  float:left;
+}
+
+footer .container {
+  padding-top: 60px;
+}
+
+.footer-contacts {
+  float: left;
+  width: 400px;
+}
+
+.footer-social {
+  float: left;
+  width: 400px;
+}
+
+.footer-copyright {
+  float: left;
+  width: 140px;
+}
+
+.photo,
+.description,
+.composition {
+  float: left;
+  width: 470px;
+}
+
+.vendor-code {
+  float: right;
 }
