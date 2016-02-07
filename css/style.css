@@ -38,33 +38,49 @@ h2 {
   margin: 0 auto;
 }
 
+header .container {
+  display: flex;
+  align-items: baseline;
+}
+
 .main-navigation {
   width: 780px;
-  float: left;
 }
 
 .user-block {
   width: 140px;
-  float: right;
+}
+
+main .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .main-navigation li,
-.breadcrumps li {
-  display: inline-block;;
+.breadcrumps li,
+.pages li {
+  display: inline-block;
+}
+
+.breadcrumps {
+  width: 940px;
 }
 
 .filter {
-  float: left;
-  width: 240px;
+  width: 220px;
 }
 
 .catalog {
-  float: left;
   width: 700px;
 }
 
+.catalog section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 article {
-  float: left;
   width: 220px;
   margin-bottom: 20px;
 }
@@ -73,36 +89,32 @@ article:nth-child(3n+2) {
   margin: 0 20px;
 }
 
-.pages {
-  float:left;
-}
-
 footer .container {
   padding-top: 60px;
+  display: flex;
 }
 
 .footer-contacts {
-  float: left;
   width: 400px;
 }
 
 .footer-social {
-  float: left;
   width: 400px;
 }
 
 .footer-copyright {
-  float: left;
   width: 140px;
 }
 
-.photo,
-.description,
-.composition {
-  float: left;
+.photo {
   width: 470px;
 }
 
-.vendor-code {
-  float: right;
+.description {
+  width: 390px;
+}
+
+.description-header {
+  display: flex;
+  justify-content: space-between;
 }
