@@ -175,6 +175,10 @@ main .container {
   transform: rotate(45deg);
 }
 
+.breadcrumps li:last-child {
+  opacity: 0.3;
+}
+
 .filter {
   width: 220px;
 }
@@ -236,6 +240,10 @@ article {
 article:nth-child(3n+2) {
   margin-left: 20px;
   margin-right: 20px;
+}
+
+h4 > a {
+	color: #000000;
 }
 
 .price {
@@ -428,4 +436,8 @@ footer .container {
 .description-header {
   display: flex;
   justify-content: space-between;
+}
+
+.vendor-code {
+  opacity: 0.3;
 }
